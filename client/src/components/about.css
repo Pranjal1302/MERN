@@ -1,0 +1,31 @@
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 900px;
+    margin-top:10rem;
+    font-family: arial;
+    padding: 1rem;
+}
+#photo{
+   height: 15rem;
+}
+#photo img{
+    width:15rem;
+    height: 14rem;
+}
+.content{
+    padding: 1rem;
+    margin-bottom: 5rem;
+}
+.content h4{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+#links{
+    margin-left: 26px;
+    /* margin-bottom: 1rem; */
+}
+#edit{
+    display: inline-block;
+    margin-left: 9rem;}

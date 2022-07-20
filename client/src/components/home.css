@@ -1,0 +1,13 @@
+#intro-example {
+    height: 900px;
+    background-image: url('../images/bg.png');
+  }
+
+  @media (min-width: 992px) {
+    #intro-example {
+      height: 948px;
+    }
+}
+.mask {
+    background-color: rgba(0, 0, 0, 0.5);
+}
