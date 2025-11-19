@@ -4,6 +4,7 @@ import { BrowserRouter,Routes,Route } from 'react-router-dom';
 import Home from './Home';
 import Show from './Show';
 import Navbar from './Navbar';
+import Add from './Add';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
 <Routes>
   <Route Component={Home} path='/'/>
   <Route Component={Show} path='/show'></Route>
-  <Route Component={Show} path='/add'></Route>
+  <Route Component={Add} path='/add'></Route>
 </Routes>
 </BrowserRouter>
   );

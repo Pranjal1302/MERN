@@ -13,4 +13,13 @@ router.get("/", async (req, res) => {
   }
 });
 
+router.post('/Addmovie',async (req,res)=>{
+  try {
+    var movie = new Movie(req.body);
+    await movie.save();
+  } catch (error) {
+    
+  }
+})
+
 module.exports = router;
